@@ -1,0 +1,604 @@
+@import url('https://fonts.maateen.me/bangla/font.css');
+*{
+  margin: 0;
+  padding: 0;
+}
+#lodding{
+  width: 100%;
+  height: 100vh;
+  background: white url(../ias_image/load.gif)no-repeat center;
+  position: fixed;
+  z-index: 99999;
+}
+body{
+  font-family: 'Bangla', Arial, sans-serif !important;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.9);
+}
+.slider{
+  background: url(../ias_image/background_atasment.jpg)no-repeat;
+  background-size: cover !important;
+  background-position: center center;
+  font-family: 'Bangla', sans-serif;
+  transition: 5s;
+  position: relative;
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  overflow: hidden;
+  outline: none;
+  animation-timing-function: ease-in-out;
+}
+@keyframes animate{
+  0%{
+    background: url(../ias_image/bg01.jpg)no-repeat;
+  }
+  25%{
+    background: url(../ias_image/bg02.jpg)no-repeat;
+  }
+  50%{
+    background: url(../ias_image/bg03.jpg)no-repeat;
+  }
+  75%{
+    background: url(../ias_image/bg04.jpg)no-repeat;
+  }
+  100%{
+    background: url(../ias_image/bg01.jpg)no-repeat;
+  }
+}
+.overlay{
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.logo{
+  width: 20%;
+  float: left;
+}
+.logo img{
+  width: 150px;
+}
+.pca-navbar{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	background: rgb(69 132 169);
+	transition: 1s;
+	animation: scroll 0.7s 1;
+  z-index: 9999;
+}
+.menu-scroll-function{
+  width:100%;
+  background: rgb(78 115 105);
+  position:fixed;
+  top: 0px;
+  left: 0;
+  z-index: 9999;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-toggler{
+  line-height: unset;
+}
+a.nav-link {
+  font-family: 'Bangla', sans-serif !important;
+  font-weight: 500 !important;
+}
+.nav-item .nav-link{
+  font-weight:300;
+  text-transform:uppercase;
+  margin:0px 10px;
+  position:relative;
+  color:black;
+}
+.by a{
+  text-decoration: none;
+}
+.nav-item .nav-link:before{
+  position:absolute;
+  left:0;
+  content:"";
+  bottom:0;
+  width:100%;
+  height:2px;
+  transform:scaleX(0);
+  transform-origin:left;
+  background-color:brown;
+  transition:0.5s;
+}
+.nav-item .nav-link:hover{
+    color: #00ff1f !important;
+}
+a.nav-link {
+    color: white !important;
+}
+.nav-item{
+  display: inline-flex;
+}
+.dropdown-item{
+  margin-bottom: 2px;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  background: #007bff;
+}
+.nav-item .nav-link:hover:before{
+	  transform:scaleX(1);
+  transform-origin:left;
+}
+.navbar-brand{
+	text-transform:capitalize;
+	font-size:35px;
+	color:#2f3542;
+	font-style:italic;
+	font-family:'Oswald', sans-serif;
+	font-weight:bold;
+}
+.profile {
+    left: 0px;
+    top: 30px;
+}
+.image_contant{
+  padding: 120px 0px;
+  text-align: center;
+  font-weight: 500;
+  z-index: 99;
+
+}
+.image_contant h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.image_contant h3 {
+    color: aqua;
+}
+.image_contant h2 {
+    color: #d63c07;
+    font-weight: 600;
+}
+.image_contant span{
+  color: white;
+}
+.list_content{
+  font-size: 20px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  max-width: 600px;
+  padding: 5px;
+  margin: 0 auto;
+}
+.list_content ul{
+  margin: 0;
+  padding: 0;
+}
+.icon{
+  margin-right: 20px;
+}
+.list_content ul li{
+  display: inline-block;
+  padding: 10px 10px;
+
+}
+.datetime {
+    margin-top: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 20px;
+}
+
+element.style {
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+.datetime{
+  font-family: 'Bangla', sans-serif;
+}
+#secound_section{
+
+}
+.breaking_news_head {
+    background: #e5e5e5;
+    margin-bottom: 15px;
+}
+.breaking_item {
+    width: 100%;
+    overflow: hidden;
+}
+.breaking_news span {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: 15px;
+}
+.breaking_item marquee {
+    font-size: 15px;
+    padding-top: 4px;
+    color: black;
+    font-weight: 500;
+}
+.breaking_news {
+    float: left;
+    border-right: 5px solid red;
+    width: 15%;
+    padding: 5px 10px;
+    background: #49ce05;
+}
+.about_itm {
+    text-align: justify;
+}
+.about {
+    margin-top: 20px;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.about_heading h2{
+  color: #d63c07;
+}
+.about:hover {
+    box-shadow: 0px 0px 0px 1px #43a050;
+}
+.teacer_item img {
+    width: 100px;
+    border-radius: 5px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.teacer_name {
+    background: #5a7dbd;
+    color: white;
+    border-bottom: 2px solid red;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.teacer_box:hover {
+    box-shadow: 0px 0px 0px 1px #43a050;
+}
+.responsive_width{
+  overflow: hidden;
+  width: 100%;
+}
+.about-school{
+  width: 64%;
+  float: left;
+}
+.notis-school{
+  width: 34%;
+  float: right;
+  margin-top: 20px;
+}
+.admition-student{
+  width: 34%;
+  float: right;
+}
+.online-result{
+  width: 49%;
+  float: left;
+}
+.online-found_student{
+  width: 49%;
+  float: right;
+}
+.head-teacher-box{
+  width: 100%;
+}
+.asesten-head-teacher{
+  width: 49%;
+  float: left;
+}
+.class-teacher{
+  width: 49%;
+  float: right;
+}
+.teacer_box {
+  overflow: hidden;
+  transition: 0.3s;
+    background: #e5e5e5;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.teacer_item {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    text-align: justify;
+}
+.previous_resust_item_tabble{
+  overflow: scroll;
+}
+.aply_gif img {
+    width: 100%;
+}
+.result_option{
+  width: 95%;
+  margin: auto;
+}
+.select_option{
+  margin-bottom: 10px;
+}
+.teacer_name img{
+  width: 40px;
+}
+.notis_board{
+  padding: 5px;
+  height: 200px;
+  overflow: hidden;
+}
+.notis_item ul{
+  margin: 0;
+  padding: 0;
+}
+.notis_item ul li{
+  display: inline-block;
+}
+.notis_item ul li a{
+
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+.result_icon{
+  transition: 0.8s;
+}
+.rocket_icon:hover
+.result_icon{
+  transform: rotate(360deg);
+}
+/*
+এখানে নতুন শিক্ষার্থী ভতর্ির সি এস এস এর সেকশন শুরু
+*/
+#new_student_condition{
+  margin-top: 100px;
+}
+.div_item_list {
+  font-size: 22px;
+}
+.new_student_info{
+  padding: 5px 5px;
+}
+.new_student_head{
+  color: green;
+  border-bottom: 2px solid #5a7dbd;
+  text-align: center;
+}
+.div_item_list {
+    background: darkseagreen;
+    color: darkgreen;
+    text-align: left;
+
+    padding: 2px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.div_item_item{
+  text-align: justify;
+  font-size: 18px;
+}
+.role_answere span{
+  font-size: 18px;
+  color: red;
+}
+.apply_new {
+    margin-top: 10px;
+    font-size: 20px;
+}
+/*
+এখানে নতুন শিক্ষার্থী ভতর্ির সি এস এস এর সেকশন শেষ
+*/
+/*
+এখানে শিক্ষার্থীর রেজাল্ট সি এস এস এর সেকশন শুরু
+*/
+#online_result_section{
+  margin-top: 80px;
+}
+.online_result_header {
+    text-align: center;
+    color: white;
+    background: #2c883c;
+    padding: 2px 0px;
+    border-radius: 5px;
+    padding-top: 8px;
+}
+.found_result_header{
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 7px;
+  padding-top: 15px;
+}
+.found_result_header span {
+    border: 1px solid #cccccc;
+    padding: 7px;
+    color: red;
+    border-radius: 5px;
+}
+/*
+এখানে শিক্ষার্থীর রেজাল্ট সি এস এস এর সেকশন শেষ
+*/
+
+/*
+এখানে নতুন শিক্ষার্থীর সি এস এস এর সেকশন শুরু
+*/
+.text-muted {
+    color: #007bff !important;
+}
+.form-group{
+  width: 100%;
+}
+.page{
+  float: right;
+}
+/*
+এখানে নতুন শিক্ষার্থীর সি এস এস এর সেকশন শেষ
+*/
+/*
+এখানে found_result  সি এস এস এর সেকশন start
+*/
+#found_result_section{
+  margin-top: 20px;
+}
+.found_result_header h4 {
+    text-align: center;
+}
+th {
+    background: #65bd65;
+    color: #af1c1c;
+    text-align: center;
+}
+td img {
+    width: 80px !important;
+    height: auto;
+}
+tr {
+    line-height: initial;
+}
+.btn{
+  line-height: 1;
+}
+.online_result_futter{
+  margin-top: 30px;
+  text-align: center;
+}
+.url{
+  float: left;
+}
+.url a{
+  text-decoration: none;
+}
+.found_result_futter {
+    margin-top: 30px;
+    text-align: center;
+    color: #ff2121;
+    background: #80e491;
+    padding: 2px 0px;
+    border-radius: 5px;
+}
+.condition_registration{
+  padding-top: 130px;
+}
+.student_white{
+  float: left;
+  border-top: 1px solid;
+}
+.school_sel{
+  text-align: center;
+}
+.ovivabok_white{
+  float: right;
+  border-top: 1px solid;
+}
+/*
+এখানে found_result  সি এস এস এর সেকশন end
+*/
+.page-footer{
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+.pryment img {
+    width: 300px;
+}
+/*
+contact_academy page
+*/
+#contact_us_infancy{
+  margin-top: 80px;
+}
+.content_heading {
+    text-align: center;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    color: blueviolet;
+    border-bottom: 2px solid green;
+}
+.contract_us {
+background: white;
+padding: 10px 20px;
+color: rgba(0,0,0,.7);
+}
+span#contract_infm {
+float: right;
+text-transform: lowercase;
+}
+.contract_info {
+text-transform: uppercase;
+border-bottom: 1px solid rgba(0,0,0,.2);
+line-height: 35px;
+}
+.contract_info:last-child{
+border-bottom: double;
+}
+.google_maps {
+padding: 50px 0px;
+text-align: center;
+}
+.google_maps iframe{
+  width: 860px;
+  height: 450px;
+}
+span#contract_infm a {
+    color: #4c4c4c;
+    text-decoration: none;
+}
+#six-section{
+	background:#F2F2F2;
+	margin-top:80px;
+	margin-bottom:50px;
+}
+.contact{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.contact h2{
+	text-align:center;
+	color:#FF5722;
+	margin-bottom:40px;
+	text-transform:uppercase;
+}
+svg.svg-inline--fa.fa-globe.fa-w-16,
+svg.svg-inline--fa.fa-phone-alt.fa-w-16 {
+    color: aqua;
+}
+svg.svg-inline--fa.fa-map-marker-alt.fa-w-12 {
+    color: brown;
+}
+svg.svg-inline--fa.fa-at.fa-w-16 {
+    color: deepskyblue;
+}
+.error span {
+    background: #96e496 !important;
+    color: #1b9a1b !important;
+    font-weight: 600 !important;
+}

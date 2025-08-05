@@ -1,0 +1,275 @@
+/* responsive css of max width 768px */
+@media screen and (max-width: 950px){
+	.google_map{
+		width: 450px;
+		height: 420px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.admin_area{
+		display: none;
+	}
+	.sidebar_battun{
+		display: block;
+	}
+	.notification {
+    margin-left: -130px;
+	}
+	#sidebar_menu_section {
+    width: 100%;
+		display: none;
+	}
+	#dashboard_digain {
+    width: 100%;
+		display: block;
+	}
+	.row{
+		display: inherit;
+	}
+	div.dataTables_wrapper div.dataTables_filter label {
+    float: right;
+	}
+	.google_map{
+		width: 420px;
+		height: 400px;
+	}
+}
+
+.sidebar_admin {
+    display: none;
+  background: aqua;
+  padding: 10px;
+  cursor: pointer;
+}
+.admin_image_bar img{
+  float: left;
+  overflow: hidden;
+  width: 30px;
+  border-radius: 50%;
+  margin: 6.5px;
+  margin-top: -5px;
+  position: absolute;
+}
+.sidebar_admin_drop {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;color: white;
+}
+.setting1 {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    width: 92%;
+    border: 1px solid white;
+    background: white;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.setting1 ul{
+  margin: 0;
+  padding: 0;
+}
+.setting1 ul li{
+  padding: 10px 10px;
+  width: 100%;
+  list-style: none;
+}
+.setting1 ul a{
+text-decoration: none;
+color: black;
+font-weight: 500;
+}
+.setting1 ul li:hover {
+    background: #ffa50099;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.setting{
+  width: 200px;
+  border: 1px solid white;
+  background: white;
+  margin-left: 20px;
+}
+.dropdown-menu.dropdown-content.notification.show {
+    margin-top: 45px;
+    margin-left: -330px;
+}
+.dropdown-menu.dropdown-content.setting.show {
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.dropdown-menu.dropdown-content.setting1.show {
+    margin-top: 12px;
+    margin-left: 14px;
+    padding: 10px 0px;
+}
+.bell .badge {
+    position: absolute;
+    top: -7px;
+    right: -8px;
+    padding: 3px 5px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+@media screen and (max-width: 768px) {
+  .sidebar_admin {
+    display: block;
+  background: aqua;
+  padding: 10px;
+  cursor: pointer;
+  }
+  .setting{
+    display: none;
+    width: 200px;
+    border: 1px solid white;
+    background: white;
+    margin-left: 20px;
+  }
+}
+/*Responsive Css Start*/
+/* responsive css of max width 768px */
+
+@media screen and (max-width: 768px) {
+	.admin_area{
+		display: none;
+	}
+	.sidebar_battun{
+		display: block;
+	}
+	.notification {
+    margin-left: -130px;
+	}
+	#sidebar_menu_section {
+    width: 100%;
+		display: none;
+	}
+	#dashboard_digain {
+    width: 100%;
+		display: block;
+	}
+	.row{
+		display: inherit;
+	}
+	div.dataTables_wrapper div.dataTables_filter label {
+    float: right;
+	}
+	.google_map{
+		width: 420px;
+		height: 400px;
+	}
+  .user_item{
+    width: 630px;
+  }
+}
+@media screen and (min-width: 1350px){
+.google_map{
+  width: 850px;
+  height: 420px;
+}
+}
+@media screen and (min-width: 1150px){
+  .input_form {
+    width: 750px;
+  }
+  .google_map{
+    width: 720px;
+    height: 420px;
+  }
+  .dropdown-menu.dropdown-content.notification.show {
+    left: -110px;
+  }
+  .notification {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 950px){
+	.google_map{
+		width: 450px;
+		height: 420px;
+	}
+  .input_form {
+    width: 550px;
+  }
+	.down_icon {
+	    margin-left: 30%;
+	}
+}
+@media screen and (max-width: 850px){
+  .input_form {
+    width: 450px;
+  }
+	.down_icon {
+			margin-left: 20%;
+	}
+}
+@media screen and (max-width: 700px){
+  .input_form {
+    width: 550px;
+  }
+  .user_item{
+    width: 530px;
+  }
+  .google_map{
+    width: 550px;
+    height: 520px;
+  }
+	.down_icon {
+			margin-left: 70%;
+	}
+}
+@media screen and (max-width: 650px){
+  .input_form {
+    width: 450px;
+  }
+  .user_item{
+    width: 480px;
+  }
+  .google_map{
+    width: 500px;
+    height: 420px;
+  }
+	.down_icon {
+			margin-left: 65%;
+	}
+}
+@media screen and (max-width: 650px){
+  .google_map{
+    width: 480px;
+    height: 420px;
+  }
+  thead {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px){
+  .input_form {
+    width: 380px;
+  }
+  .user_item{
+    width: 415px;
+  }
+  .google_map{
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 500px){
+  .google_map{
+    width: 380px;
+    height: 400px;
+  }
+  thead {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px){
+  .input_form {
+    width: 330px;
+  }
+  .user_item{
+    width: 400px;
+  }
+}
